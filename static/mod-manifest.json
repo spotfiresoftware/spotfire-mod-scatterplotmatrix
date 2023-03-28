@@ -1,0 +1,51 @@
+{
+    "apiVersion": "1.3",
+    "version": "1.0.0",
+    "name": "Scatter Plot Matrix",
+    "id": "tibco-mods-splom", 
+    "icon": "icon.svg",
+    "properties": [  
+        {
+            "name": "plotlySettings",
+            "type": "string",
+            "defaultValue": "-"
+        },
+        {
+            "name": "lastSelectedTabIndex",
+            "type": "integer",
+            "defaultValue": 0
+        },
+        {
+            "name": "useCustomRowIdentifierExpression",
+            "type": "boolean",
+            "defaultValue": false
+        }
+    ],    
+    "dataViewDefinition": {
+        "tooltip": {"enabled": true},
+        "colorAxis": {
+            "mode": "categorical",
+            "dropTarget": {
+                "icon": "Color",
+                "description": "Color by {0}"
+            }
+        },
+        "axes": [
+            {
+                "name": "Measures",
+                "mode": "dual",
+                "placement":"bottom" ,  
+                "dropTarget": {
+                    "icon": "XAxis3D",
+                    "description": "Use {0} for the mod's measures" 
+                }
+            }
+        ]
+    },
+    "files": [
+        "index.html",
+        "main.css",
+        "bundle.js",
+        "bootstrap.4.1.2.css"
+    ]
+}

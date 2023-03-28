@@ -1,0 +1,35 @@
+{
+    "name": "tibco-mods-splom",
+    "version": "1.0.1",
+    "description": "",
+    "scripts": {
+        "server": "mods-dev-server dist",
+        "build": "webpack --mode production",
+        "build-watch": "webpack --watch",
+        "start": "npm run build-watch"
+    },
+    "keywords": [
+        "scatter plot",
+        "spom chart",
+        "scatter matrix",
+        "correlation",
+        "data science",
+        "analytics",
+        "visualization",
+        "plotly"
+    ],
+    "author": "Jose Leviaguirre",
+    "license": "ISC",
+    "devDependencies": {
+        "@tibco/spotfire-mods-dev-server": "^1.0.1",
+        "webpack": "^5.73.0",
+        "webpack-cli": "^4.10.0"
+    },
+    "dependencies": {
+        "@json-editor/json-editor": "^2.9.0-beta.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "ify-loader": "^1.1.0",
+        "plotly.js-dist": "2.14.0",
+        "save-dev": "^0.0.1-security"
+    }
+}

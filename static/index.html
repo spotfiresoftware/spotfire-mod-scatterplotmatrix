@@ -1,0 +1,42 @@
+<!--
+/*
+* Copyright © 2020. TIBCO Software Inc.
+* This file is subject to the license terms contained 
+* in the license file that is distributed with this file.
+*/
+-->
+
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Spotfire Mod Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="all" href="main.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="bootstrap.4.1.2.css" />
+    </head> 
+    <body> 
+
+        <div id="warning-message"></div>
+        <div id="mod-container"><div id="plotly_plot"></div><style id="mod-container-style"></style></div>
+        
+        <div id="configDialog" hidden> 
+            <span onclick="document.getElementById('configDialog').hidden = true" class="fromCloseBtn">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve" class="closeSvg" style="width: 16px; height: 16px;"><g id="Lager_1"><g><g>
+                    <rect x="0.286" y="7.229" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3137 8)" fill="#000" width="15.428" height="1.543"></rect></g></g><g><g>
+                    <rect x="7.229" y="0.286" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3137 8)" fill="#000" width="1.543" height="15.428"></rect></g></g></g>
+                </svg>
+            </span>
+            <div id="form" class="dialog RoundedDropShadow"></div> 
+        </div> 
+
+
+
+        <script id="spotfire-loader">var Spotfire=function(e){"use strict";return e.initialize=function(e){var t="sfTemp"+1e4*Math.random()+"Cb",r=window;r[t]=e;var a={subject:"GetUrl",callbackId:-1,options:{cbId:t}};r.addEventListener("message",(function e(t){if(t.source!==r.parent||!t.data.src)return;r.removeEventListener("message",e);var a=document,n=a.createElement("script");n.src=t.data.src,(a.head||a.body).appendChild(n)})),r.parent.postMessage(a,"*")},e}({});</script>
+        <script src="bundle.js"></script>
+    </body> 
+
+
+</html>
+
