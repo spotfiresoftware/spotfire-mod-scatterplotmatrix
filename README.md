@@ -14,7 +14,9 @@ The [Wiki](https://github.com/TIBCOSoftware/spotfire-mod-scatterplotmatrix/wiki)
 
 In a terminal window:
 - `npm install`
-- `npm start`
+- `npm run build-watch`
+
+In a new terminal window:
 - `npm run server`
 
 ## About Mods for TIBCO Spotfire®
