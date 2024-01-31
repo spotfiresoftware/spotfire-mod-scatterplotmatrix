@@ -20,6 +20,6 @@ In a new terminal window:
 - `npm run server`
 
 ## About Mods for Spotfire®
--   [Spotfire Community Exchange](https:community.spotfire.com/files/): A safe and trusted place to discover ready-to-use Mods
+-   [Spotfire Community Exchange](https://community.spotfire.com/files/): A safe and trusted place to discover ready-to-use Mods
 -   [Developer documentation](https://tibcosoftware.github.io/spotfire-mods/docs/): Introduction and tutorials for Mods developers
 -   [Mods examples](https://github.com/TIBCOSoftware/spotfire-mods/): A public repository for examples projects
